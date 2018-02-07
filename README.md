@@ -15,7 +15,7 @@ It is simple, Here are the steps:
 
 So let's get started!
 
-1. Register your types like as follows:
+**1. Register your types like as follows:**
 
        var container = SimpleIoC.CreateInstance();
        container.For<IMessageService>().Inject<MessageService>();
@@ -24,11 +24,11 @@ Or even simpler use Register method:
 
     container.Register<ILogger, Logger>();
            
-2. Then resolve and get your instance of the type like:
+**2. Then resolve and get your instance of the type like:**
 
        var resolvedService = container.Resolve<IMessageService>();
 
-3. It's done! Enjoy it.
+**3. It's done! Enjoy it.**
 
        resolvedService.SendMessage("This is a simple IoC Container!");
     
