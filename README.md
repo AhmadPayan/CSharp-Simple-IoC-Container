@@ -3,8 +3,6 @@ A very small IoC container in C#.NET which created for learning purpose.
 
 This is a simple C# Console Application that shows how you can create your own custom IoC Container in an easiest way.
 
-**WARNING: Please do not use this as your project IoC Container,  It lacks many features and functionality.**
-
 Register your types like as follows:
 
     var container = SimpleIoC.CreateInstance();
@@ -26,3 +24,6 @@ You can use Singleton in order to prevent instantiating classes more than once. 
     container.UseSingleton();
 
 By doing this, All of the objects just creating once.
+
+
+**WARNING: Please do not use this as your project IoC Container,  It lacks many features and functionality.**
