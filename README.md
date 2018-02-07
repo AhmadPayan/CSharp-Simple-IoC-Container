@@ -8,8 +8,8 @@ This is a simple C# Console Application that shows how you can create your own c
 
 **Usage**
 
-It is simple, Here are the steps:
-1. Define your types and injections.
+It's simple, Here are the steps:
+1. Define your types and implementations.
 2. Call Resolve method of the container to get desired implementation.
 3. Use it!
 
