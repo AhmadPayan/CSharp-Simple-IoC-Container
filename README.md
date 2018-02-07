@@ -1,7 +1,7 @@
 # CSharp-Simple-IoC-Container
 A very small IoC container in C#.NET which created for learning purpose.
 
-This is a simple C# Console Application that shows how you can create your own custom IoC Container in an easiest way.
+This is a simple C# Console Application that shows how you can create your own custom IoC Container in the easiest way.
 
 Register your types like as follows:
 
