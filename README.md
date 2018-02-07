@@ -26,4 +26,4 @@ You can use Singleton in order to prevent instantiating classes more than once. 
 By doing this, All of the objects just creating once.
 
 
-**WARNING: Please do not use this as your project IoC Container,  It lacks many features and functionality.**
+**WARNING: Please do not use this as your project IoC Container,  It lacks many features and functionalities.**
