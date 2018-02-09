@@ -24,7 +24,7 @@ Or even simpler use Register method:
 
     container.Register<ILogger, Logger>();
            
-**2. Then resolve and get your instance of the type like this:**
+**2. Then resolve and get an instance of your type like this:**
 
        var resolvedService = container.Resolve<IMessageService>();
 
